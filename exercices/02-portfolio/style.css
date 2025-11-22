@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column
+}
+
+
+nav ul {
+  display: flex;
+  background-color: #DCDCDC;
+  justify-content: center;
+  gap: 30px;
+  font-size: 30px;
+  padding: 10px;
+}
+
+nav ul a {
+  color: black;
+  text-decoration: none;
+}
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  gap: 100px;
+  align-items: center;
+}
